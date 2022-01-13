@@ -22,7 +22,7 @@ public class Config extends Configurable {
     @Override
     public void init() {
         GENERATOR_BOOSTER_ENABLED = getConfig().getBoolean("generators.booster.enabled");
-        GENERATOR_BOOSTER_DROP_AMOUNT = getConfig().getInt("generators.booster.drop-amount");
+        GENERATOR_BOOSTER_DROP_AMOUNT = getConfig().getInt("generators.booster.additional-drop-amount");
         GENERATOR_BOOSTER_DELAY = getConfig().getInt("generators.booster.delay");
 
         GENERATOR_LIMITER_ENABLED = getConfig().getBoolean("generators.limiter.enabled");

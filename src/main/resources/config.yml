@@ -5,7 +5,7 @@ generators:
     enabled: true
     # How many resources should we drop in addition to the original generator drop
     # For example the default value 2, would drop 2 more iron ingots on 1 iron ingot drop from the generator
-    drop-amount: 1
+    additional-drop-amount: 1
     # Delay on dropping multiplied amount from the original drop time (in seconds)
     # Leave it as it is if you don't know what this is and start tweaking multiply-by
     delay: 1
