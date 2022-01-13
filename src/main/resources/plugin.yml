@@ -1,0 +1,6 @@
+name: '${project.name}'
+version: '${project.version}'
+main: ir.alijk.clashwarsfixes.ClashWarsFixes
+api-version: 1.8
+authors: [ Alijk ]
+description: '${project.description}'
