@@ -1,3 +1,7 @@
+/*
+ * - CREDIT -
+ * Taken from MegaCore (https://github.com/Alijkaz/MegaCore)
+ */
 package ir.alijk.clashwarsfixes.config;
 
 import ir.alijk.clashwarsfixes.ClashWarsFixes;
@@ -10,6 +14,7 @@ import java.io.IOException;
 
 /**
  * Main abstract class for configuration files
+ *
  */
 public abstract  class Configurable {
         private static File file;
